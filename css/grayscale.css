@@ -296,3 +296,9 @@ img::-moz-selection {
     box-sizing: border-box;
     padding: 96px 60px;
 }
+
+
+.resume_content {
+  background-color:white;
+  color: black;
+}
