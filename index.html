@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="favicon.png" type="image/png">
     <title>Developer - Anoop Kumar</title>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -14,8 +15,9 @@
     <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body id="page-top">
+  <body id="page-top" ng-app="myApp" ng-controller="HomeController">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
@@ -74,7 +76,7 @@
         <div class="col-lg-8 mx-auto">
           <h2>DIG A LITTLE DEEPER</h2>
           <p> Find out what I've accomplished over the years</p>
-          <a href="https://s3.amazonaws.com/a3125fe/Resume_AnoopKumar.pdf" class="btn btn-default btn-lg">Download Resume</a>
+          <a target="blank" href="https://s3.amazonaws.com/a3125fe/Resume_AnoopKumar.pdf" class="btn btn-default btn-lg">Download Resume</a>
         </div>
       </div>
     </section>
@@ -83,28 +85,30 @@
       <div class="container">
         
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
-            <span ></span>
+          <div class="col resume-margin">
+            <span></span>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <h4>DAY-TO-DAY COMFORT</h4>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <h4>EXPERIENCE WITH</h4>
           </div>
         </div>
+
+
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span >Languages</span>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Java</li>
               <li>Javascript</li>
               <li>HTML</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Python</li>
               <li>CSS</li>
@@ -114,11 +118,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span >Java Frameworks/Tools</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Spring WEB</li>
               <li>Spring Boot</li>
@@ -130,7 +134,7 @@
               <li>Apache Shiro</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Hibernate</li>
               <li>Jersy</li>
@@ -139,18 +143,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span >Web Frameworks/Libraries</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>AngularJS 1.x</li>
               <li>Bootsrap</li>
               <li>NPM</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Angular 5</li>
               <li>Grunt</li>
@@ -160,11 +164,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span >AWS Microservices</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Lambda</li>
               <li>API Gateway</li>
@@ -173,24 +177,24 @@
               <li>Cloudwatch</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Route 53</li>
             </ul>
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span>SCM</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>SVN</li>
               <li>Git</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>TFC</li>
               <li>Mercurial</li>
@@ -198,35 +202,35 @@
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span>Databases</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>MongoDB</li>
               <li>MySQL</li>
               <li>PSQL</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Oracle</li>
             </ul>
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span>IDE</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Eclipse</li>
               <li>Sublime 3</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Netbeans</li>
               <li>Visual Studio</li>
@@ -235,18 +239,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <span>Miscellaneous</span>
           </div>
           
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Jenkins</li>
               <li>Sonar</li>
               <li>Apache Tomcat</li>
             </ul>
           </div>
-          <div class="col" style="margin-top: 2%;">
+          <div class="col resume-margin">
             <ul>
               <li>Kaa</li>
               <li>Teamcity</li>
@@ -277,9 +281,9 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
+                <a href="https://www.linkedin.com/in/anoop-kumar-b04845a5/" class="btn btn-default btn-lg">
+                  <i class="fa fa-linkedin fa-fw"></i>
+                  <span class="network-name">LinkdIn</span>
                 </a>
               </li>
             </ul>
@@ -287,42 +291,47 @@
           <div class="col-sm-6">
 
 
-          <form action="#">
+          <form ng-submit="sendMail()">
             <div class="row form-group">
               <div class="col-md-6">
                 <!-- <label for="fname">First Name</label> -->
-                <input type="text" id="fname" class="form-control" placeholder="Your firstname">
+                <input type="text" id="fname" class="form-control" placeholder="Your firstname" ng-model="data.firstName" required>
               </div>
               <div class="col-md-6">
                 <!-- <label for="lname">Last Name</label> -->
-                <input type="text" id="lname" class="form-control" placeholder="Your lastname">
+                <input type="text" id="lname" class="form-control" placeholder="Your lastname" ng-model="data.lastName">
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-12">
                 <!-- <label for="email">Email</label> -->
-                <input type="text" id="email" class="form-control" placeholder="Your email address">
+                <input type="email" id="email" class="form-control" placeholder="Your email address" ng-model="data.email" required>
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-12">
                 <!-- <label for="subject">Subject</label> -->
-                <input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+                <input type="text" id="subject" class="form-control" placeholder="Your subject of this message" ng-model="data.subject" required>
               </div>
             </div>
 
             <div class="row form-group">
               <div class="col-md-12">
                 <!-- <label for="message">Message</label> -->
-                <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Your message"></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control" ng-model="data.message" placeholder="Your message"></textarea>
               </div>
             </div>
             <div class="form-group">
-              <input type="submit" value="Send Message" class="btn btn-primary">
+              <input type="submit" value="Send Message"  class="btn btn-primary">              
             </div>
-
+            <div class="alert alert-success" ng-if="message">
+                <strong>Success!</strong> {{message}}
+            </div>
+            <div class="alert alert-danger" ng-if="errorMessage">
+              <strong>Fail!</strong> {{errorMessage}}
+            </div>
           </form>   
         
 
@@ -343,6 +352,9 @@
         <p>Copyright &copy; anoopkrdev.in 2018</p>
       </div>
     </footer>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/controller.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
