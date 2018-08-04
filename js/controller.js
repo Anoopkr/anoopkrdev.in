@@ -6,7 +6,6 @@ $scope.data = {};
 $scope.errorMessage = "";
 $scope.message = "";
 	$scope.sendMail = function(){
-		console.log("tttt");
 		 $http({
         method : "POST",
         url : "https://8l47mk9ct3.execute-api.us-east-1.amazonaws.com/prod/mail",
